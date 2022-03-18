@@ -34,8 +34,9 @@ const About = () => {
         <div className="text-[#a2aabc] text-lg mt-5">
           <code>
             Hellow ! I'm Hachim and I'm a web developper. I was born and raised
-            in Morocco but now i live in Lyon area. I love Everything Javascript
-            related ! and I have {nbrExp} years experience using React so far{" "}
+            in Morocco but now i live in Lyon - France. I love Everything
+            Javascript related ! <br />I have {nbrExp} years experience using
+            React so far.
             <br />
             In my free time, I like to play and make video games for fun ! Also
             messing around in VR.

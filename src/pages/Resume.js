@@ -1,5 +1,11 @@
 import React from "react";
 import { ClipboardListIcon } from "@heroicons/react/solid";
+import cvPdf from "../assets/files/cv_hachim_react_conserto_2022.pdf";
+import DivTechno from "../Utils/DivTechno";
+
+import "./resume.css";
+
+const pdfLogo = require("../assets/logos/pdfLogo.png");
 
 const Resume = () => {
   return (
@@ -9,7 +15,7 @@ const Resume = () => {
     >
       <div>
         <div className="table">
-          <ClipboardListIcon className="h-5 w-5 mr-4 text-yellow_vs" />{" "}
+          <ClipboardListIcon className="h-5 w-5 mr-4 text-yellow_vs" />
           <code className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
             Resume
           </code>
@@ -56,7 +62,7 @@ const Resume = () => {
               phase to post.
               <br />• Guaranted the proper integration of present and future
               front-end functionalities.
-              <br />• Helped in choosing the Javascript libraries to use.
+              <br />• Helped in choosing some Javascript libraries to use.
               <br />• Presented the progress at the end of each sprint.
             </code>
           </div>
@@ -76,6 +82,16 @@ const Resume = () => {
               <br />• Passionate about anything Javascript related.
               <br />• Self taught.
             </code>
+          </div>
+          <div>
+            <a
+              className="downloadCVBtn"
+              href={cvPdf}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Download Resume
+            </a>
           </div>
         </div>
       </div>

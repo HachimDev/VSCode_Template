@@ -1,0 +1,11 @@
+.downloadCVBtn {
+  border-width: 1px;
+  padding: 0.75rem;
+  color: rgb(133 216 251 / var(--tw-text-opacity));
+  border-color: rgb(133 216 251 / var(--tw-border-opacity));
+  border-radius: 0.25rem;
+  margin-top: 2.5rem;
+  position: relative;
+  left: 85%;
+  top: 160%;
+}
