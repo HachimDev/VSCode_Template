@@ -1,18 +1,15 @@
 import React from "react";
 import { IdentificationIcon } from "@heroicons/react/solid";
 
-const PythonLogo = require("../assets/logos/PythonLogo.png");
 const ReactLogo = require("../assets/logos/ReactLogo.png");
 const TypescriptLogo = require("../assets/logos/TypescriptLogo.png");
 const JsLogo = require("../assets/logos/JsLogo.png");
-const NextLogo = require("../assets/logos/NextLogo.png");
-const TailwindLogo = require("../assets/logos/TailwindLogo.png");
-const SqlLogo = require("../assets/logos/SqlLogo.png");
 const ReduxLogo = require("../assets/logos/ReduxLogo.png");
 const FirebaseLogo = require("../assets/logos/FirebaseLogo.png");
 const MongoDBLogo = require("../assets/logos/MongoDBLogo.png");
 const NodeJSLogo = require("../assets/logos/NodeJSLogo.png");
 const DockerLogo = require("../assets/logos/DockerLogo.png");
+const UnityLogo = require("../assets/logos/unityLogo.png");
 
 const About = () => {
   return (
@@ -30,34 +27,14 @@ const About = () => {
         </div>
         <div className="text-[#a2aabc] text-lg mt-5">
           <code>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id eros
-            non nisi vulputate eleifend. Vestibulum erat ipsum, lacinia ut nibh
-            ut, pulvinar interdum lorem. Aliquam et nisi eu risus ultrices
-            suscipit nec nec quam. Suspendisse pretium fermentum luctus.
-            Maecenas vitae vestibulum ipsum, ut varius diam. Phasellus mattis
-            nunc vel purus maximus, sit amet congue ligula tincidunt. Nulla
-            tristique luctus lacinia. Nullam ut tortor arcu.
+            Hellow ! I'm Hachim. I'm a web developper in Lyon. I was born and
+            raised in Morocco. I love Everything Javascript related ! I also
+            like to build desktop PC's.
           </code>
           <br />
           <br />
-          <code>Aenean in mi non leo placerat suscipit a eget odio:</code>
+          <code>Here are some of the technologies i love to work with :</code>
           <div className="grid grid-cols-3 gap-2 text-sm mt-5 text-brown_vs">
-            <div className="flex flex-row  mb-3">
-              <img
-                src={JsLogo}
-                alt="Js Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>JavaScript (ES6+)</code>
-            </div>
-            <div className="flex flex-row mb-3">
-              <img
-                src={NextLogo}
-                alt="Next Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>Next.js</code>
-            </div>
             <div className="flex flex-row mb-3">
               <img
                 src={ReactLogo}
@@ -65,6 +42,14 @@ const About = () => {
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>React</code>
+            </div>
+            <div className="flex flex-row  mb-3">
+              <img
+                src={JsLogo}
+                alt="Js Logo"
+                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
+              />
+              <code>Javascript(ES6+)</code>
             </div>
             <div className="flex flex-row mb-3">
               <img
@@ -74,14 +59,6 @@ const About = () => {
               />
               <code>TypeScript</code>
             </div>
-            <div className="flex flex-row  mb-3">
-              <img
-                src={TailwindLogo}
-                alt="Tailwind Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>Tailwind CSS</code>
-            </div>
             <div className="flex flex-row mb-3">
               <img
                 src={ReduxLogo}
@@ -89,14 +66,6 @@ const About = () => {
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>Redux</code>
-            </div>
-            <div className="flex flex-row  mb-3">
-              <img
-                src={PythonLogo}
-                alt="Python Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>Python</code>
             </div>
             <div className="flex flex-row mb-3">
               <img
@@ -116,14 +85,6 @@ const About = () => {
             </div>
             <div className="flex flex-row mb-3">
               <img
-                src={SqlLogo}
-                alt="SQL Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>SQL</code>
-            </div>
-            <div className="flex flex-row mb-3">
-              <img
                 src={MongoDBLogo}
                 alt="MongoDB Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
@@ -137,6 +98,14 @@ const About = () => {
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>Docker</code>
+            </div>
+            <div className="flex flex-row mb-3">
+              <img
+                src={UnityLogo}
+                alt="Unity Logo"
+                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
+              />
+              <code>Unity</code>
             </div>
           </div>
         </div>
