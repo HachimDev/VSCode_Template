@@ -1,6 +1,8 @@
 import React from "react";
 
 function Header() {
+  const openTag = "<";
+  const closeTag = "/>";
   return (
     <div
       id="Header"
@@ -8,7 +10,9 @@ function Header() {
     >
       <div className="flex flex-col">
         <code className="text-lightblue_vs">Hi, my name is</code>
-        <code className="text-[#e6f1ff] text-7xl mt-5">Hachim JABRI</code>
+        <code className="text-[#e6f1ff] text-7xl mt-5">
+          {openTag}Hachim_Jabri⠀{closeTag}
+        </code>
       </div>
       <button className="border border-lightblue_vs text-lightblue_vs mt-10 p-3 rounded hover:bg-opacity-10 hover:bg-lightblue_vs w-1/2">
         <code>Check out my Projects !</code>

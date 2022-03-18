@@ -22,40 +22,45 @@ const Resume = () => {
             <code className="text-yellow_vs">Education</code>
           </div>
           <div className="w-3/4">
-            <code className="text-blue_vs">Lorem Ipsum</code>
+            <code className="text-blue_vs">EMSI School - Marrakech</code>
             <br />
             <code className="italic text-sm text-lightblue_vs">
-              Masters in Information technology
+              Masters in Computer Science Applied to Business Management
             </code>
             <br />
             <code className="text-xs text-brown_vs">
-              • Sept 2014 - July 2017
+              • Sept 2012 - Sept 2017
             </code>
           </div>
         </div>
         <div className="flex flex-row pt-10">
           <div className="w-1/4">
-            <code className="text-yellow_vs">Work</code>
+            <code className="text-yellow_vs">Current Work</code>
           </div>
+          {/* Work 1 */}
           <div className="w-3/4">
-            <code className="text-blue_vs">Lorem Ipsum</code>
+            <code className="text-blue_vs">Javascript Consultant</code>
             <br />
             <code className="italic text-sm text-lightblue_vs">
-              Lorem - Paris, France{" "}
+              Conserto - Lyon, France
             </code>
             <br />
-            <code className="text-xs text-brown_vs">• July 2017 - Present</code>
+            <code className="text-xs text-brown_vs">
+              • February 2022 - Present
+            </code>
             <br />
             <code className="text-sm">
-              <br />• Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              <br />• Sed id eros non nisi vulputate eleifend. Vestibulum erat
-              ipsum, lacinia ut nibh ut, pulvinar interdum lorem.
-              <br />• Aliquam et nisi eu risus ultrices suscipit nec nec quam.
-              <br />• Suspendisse pretium fermentum luctus.
-              <br />• Maecenas vitae vestibulum ipsum, ut varius diam.
-              <br />• Phasellus mattis nunc vel purus maximus.
+              <br />• Developed application modules independently in{" "}
+              <i>React</i> and fixed bugs promptly.
+              <br />• Managed project delivery requirements from product design
+              phase to post.
+              <br />• Guaranted the proper integration of present and future
+              front-end functionalities.
+              <br />• Helped in choosing the Javascript libraries to use.
+              <br />• Presented the progress at the end of each sprint.
             </code>
           </div>
+          {/* End Work 1 */}
         </div>
         <div className="flex flex-row pt-10 flex-wrap">
           <div className="w-1/4">
@@ -63,17 +68,13 @@ const Resume = () => {
           </div>
           <div className="w-3/4">
             <code className="text-sm">
-              <br />• Nulla tristique luctus lacinia. Nullam ut tortor arcu.
-              <br />• Aenean in mi non leo placerat suscipit a eget odio.
-              <br />• Vivamus et dolor odio.
-              <br />• Suspendisse tempus interdum eros, et bibendum massa tempus
-              vitae.
-              <br />• Sed in aliquam ligula. Sed eget orci tortor.
-              <br />• Pellentesque laoreet laoreet justo, sed efficitur sapien
-              tincidunt eu.
-              <br />• Nulla tempor nunc eu molestie volutpat. Nunc a accumsan
-              dolor.
-              <br />• Duis ut congue dui.
+              <br />• Good knowledge of React, Node.js, Express.js.
+              <br />• Clear understanding of JavaScript and Typescript.
+              <br />• Experience in using Git and VSCode.
+              <br />• Solid understanding of software development lifecycles.
+              <br />• Strong analytical skills.
+              <br />• Passionate about anything Javascript related.
+              <br />• Self taught.
             </code>
           </div>
         </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import { IdentificationIcon } from "@heroicons/react/solid";
 
+import DivTechno from "../Utils/DivTechno";
+
 const ReactLogo = require("../assets/logos/ReactLogo.png");
 const TypescriptLogo = require("../assets/logos/TypescriptLogo.png");
 const JsLogo = require("../assets/logos/JsLogo.png");
@@ -10,6 +12,10 @@ const MongoDBLogo = require("../assets/logos/MongoDBLogo.png");
 const NodeJSLogo = require("../assets/logos/NodeJSLogo.png");
 const DockerLogo = require("../assets/logos/DockerLogo.png");
 const UnityLogo = require("../assets/logos/unityLogo.png");
+const gmsLogo = require("../assets/logos/gms2Logo.png");
+const vueLogo = require("../assets/logos/vueLogo.png");
+
+const nbrExp = 4;
 
 const About = () => {
   return (
@@ -27,86 +33,28 @@ const About = () => {
         </div>
         <div className="text-[#a2aabc] text-lg mt-5">
           <code>
-            Hellow ! I'm Hachim. I'm a web developper in Lyon. I was born and
-            raised in Morocco. I love Everything Javascript related ! I also
-            like to build desktop PC's.
+            Hellow ! I'm Hachim and I'm a web developper. I was born and raised
+            in Morocco but now i live in Lyon area. I love Everything Javascript
+            related ! and I have {nbrExp} years experience using React so far{" "}
+            <br />
+            In my free time, I like to play and make video games for fun ! Also
+            messing around in VR.
           </code>
           <br />
           <br />
-          <code>Here are some of the technologies i love to work with :</code>
+          <code>Here are some of the technologies I work with :</code>
           <div className="grid grid-cols-3 gap-2 text-sm mt-5 text-brown_vs">
-            <div className="flex flex-row mb-3">
-              <img
-                src={ReactLogo}
-                alt="React Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>React</code>
-            </div>
-            <div className="flex flex-row  mb-3">
-              <img
-                src={JsLogo}
-                alt="Js Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>Javascript(ES6+)</code>
-            </div>
-            <div className="flex flex-row mb-3">
-              <img
-                src={TypescriptLogo}
-                alt="Typescript Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>TypeScript</code>
-            </div>
-            <div className="flex flex-row mb-3">
-              <img
-                src={ReduxLogo}
-                alt="Redux Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>Redux</code>
-            </div>
-            <div className="flex flex-row mb-3">
-              <img
-                src={FirebaseLogo}
-                alt="Firebase Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>Firebase</code>
-            </div>
-            <div className="flex flex-row mb-3">
-              <img
-                src={NodeJSLogo}
-                alt="NodeJS Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>Nodejs</code>
-            </div>
-            <div className="flex flex-row mb-3">
-              <img
-                src={MongoDBLogo}
-                alt="MongoDB Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>MongoDB</code>
-            </div>
-            <div className="flex flex-row mb-3">
-              <img
-                src={DockerLogo}
-                alt="MongoDB Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>Docker</code>
-            </div>
-            <div className="flex flex-row mb-3">
-              <img
-                src={UnityLogo}
-                alt="Unity Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>Unity</code>
-            </div>
+            <DivTechno logo={ReactLogo} label="React" />
+            <DivTechno logo={JsLogo} label="Javascript(ES6+)" />
+            <DivTechno logo={TypescriptLogo} label="TypeScript" />
+            <DivTechno logo={ReduxLogo} label="Redux" />
+            <DivTechno logo={NodeJSLogo} label="Nodejs" />
+            <DivTechno logo={vueLogo} label="VueJS (learning)" />
+            <DivTechno logo={MongoDBLogo} label="MongoDB" />
+            <DivTechno logo={FirebaseLogo} label="Firebase" />
+            <DivTechno logo={DockerLogo} label="Docker" />
+            <DivTechno logo={UnityLogo} label="Unity" />
+            <DivTechno logo={gmsLogo} label="GameMaker 2" />
           </div>
         </div>
       </div>
