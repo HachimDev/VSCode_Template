@@ -16,41 +16,49 @@ const MobileMenu = () => {
     {
       name: "First Project",
       href: "#",
-      icon: <img
-      src={JSIcon}
-      alt="JS Icon"
-      className="w-7 mr-1  ml-5 text-yellow_vs"
-    />,
+      icon: (
+        <img
+          src={JSIcon}
+          alt="JS Icon"
+          className="w-7 mr-1  ml-5 text-yellow_vs"
+        />
+      ),
       current: true,
     },
     {
       name: "Second Project",
       href: "#",
-      icon:  <img
-      src={TSIcon}
-      alt="TS Icon"
-      className="w-7 mr-1  ml-5 text-yellow_vs"
-    />,
+      icon: (
+        <img
+          src={TSIcon}
+          alt="TS Icon"
+          className="w-7 mr-1  ml-5 text-yellow_vs"
+        />
+      ),
       current: false,
     },
     {
       name: "Third Project",
       href: "#",
-      icon: <img
-      src={JSIcon}
-      alt="JS Icon"
-      className="w-7 mr-1  ml-5 text-yellow_vs"
-    />,
+      icon: (
+        <img
+          src={JSIcon}
+          alt="JS Icon"
+          className="w-7 mr-1  ml-5 text-yellow_vs"
+        />
+      ),
       current: false,
     },
     {
       name: "Fourth Project",
       href: "#",
-      icon: <img
-      src={JSIcon}
-      alt="JS Icon"
-      className="w-7 mr-1  ml-5 text-yellow_vs"
-    />,
+      icon: (
+        <img
+          src={JSIcon}
+          alt="JS Icon"
+          className="w-7 mr-1  ml-5 text-yellow_vs"
+        />
+      ),
       current: false,
     },
   ];

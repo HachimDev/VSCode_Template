@@ -5,13 +5,12 @@ import DivTechno from "../Utils/DivTechno";
 
 import "./resume.css";
 
-const pdfLogo = require("../assets/logos/pdfLogo.png");
-
 const Resume = () => {
+  const style = { "margin-top": "10rem" };
   return (
     <div
       id="Resume"
-      className="lg:w-1/2 mt-64 mb-4 text-justify mx-12 lg:mr-60 lg:ml-auto"
+      className="lg:w-1/2 mt-60 mb-4 text-justify mx-12 lg:mr-60 lg:ml-auto"
     >
       <div>
         <div className="table">

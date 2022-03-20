@@ -7,6 +7,10 @@ import MobileMenu from "./MobileMenu";
 import Header from "./Header";
 import NavBar from "./NavBar";
 
+/**
+ * It renders the home page
+ * @returns The JSX code for the entire page.
+ */
 const Home = () => {
   const [home, setHome] = useState(true);
   const [onlyAbout, setOnlyAbout] = useState(false);

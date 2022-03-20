@@ -9,7 +9,7 @@ const Contact = () => {
   const [isChecked, setIsChecked] = useState(false);
 
   return (
-    <div id="Contact" className="pb-72 mt-36">
+    <div id="Contact" className="pb-72 mt-44">
       <div className="table mx-12 lg:mx-60">
         <MailIcon className="h-5 w-5 mr-4 text-yellow_vs" />
         <code className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
@@ -26,7 +26,7 @@ const Contact = () => {
               setIsChecked(!isChecked);
             }}
           />
-          {isChecked ? "Hire me !" : "Don't hire me.."}
+          {isChecked ? "Hire me !" : <del>Hire me !</del>}
         </code>
         <code>
           Whether Im looking for a new opportunity or not, you can contact me by

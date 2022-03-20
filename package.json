@@ -1,7 +1,7 @@
 {
   "name": "hachim",
   "version": "0.1.0",
-  "homepage": "hachimjabri.io",
+  "homepage": "/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.2",
@@ -16,6 +16,7 @@
     "file-saver": "^2.0.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-rounded-image": "^2.0.14",
     "react-router-dom": "^6.1.1",
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.2"

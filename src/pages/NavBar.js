@@ -34,6 +34,7 @@ const NavBar = ({ setHome, setOnlyAbout, setOnlyResume, setOnlyContact }) => {
         <img src={JSIcon} alt="JS Icon" className="w-7 mr-1  text-yellow_vs" />
         Home.js
       </Container>
+      {/* About */}
       {hideAbout ? null : (
         <Container
           onClick={() => {
@@ -58,6 +59,7 @@ const NavBar = ({ setHome, setOnlyAbout, setOnlyResume, setOnlyContact }) => {
           />
         </Container>
       )}
+      {/* Resume */}
       {hideResume ? null : (
         <Container
           onClick={() => {
@@ -83,6 +85,7 @@ const NavBar = ({ setHome, setOnlyAbout, setOnlyResume, setOnlyContact }) => {
           />
         </Container>
       )}
+      {/* Contact */}
       {hideContact ? null : (
         <Container
           onClick={() => {
