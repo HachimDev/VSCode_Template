@@ -1,12 +1,11 @@
 import React from "react";
 import { ClipboardListIcon } from "@heroicons/react/solid";
 import cvPdf from "../assets/files/cv_hachim_react_conserto_2022.pdf";
-import DivTechno from "../Utils/DivTechno";
 
 import "./resume.css";
 
 const Resume = () => {
-  const style = { "margin-top": "10rem" };
+  // const style = { "margin-top": "10rem" };
   return (
     <div
       id="Resume"
