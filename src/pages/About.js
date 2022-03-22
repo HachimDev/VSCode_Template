@@ -11,7 +11,7 @@ import { NBR_YEARS_EXP } from "../Utils/constants";
 
 const ReactLogo = require("../assets/logos/ReactLogo.png");
 const TypescriptLogo = require("../assets/logos/TypescriptLogo.png");
-const JsLogo = require("../assets/logos/JsLogo.png");
+// const JsLogo = require("../assets/logos/JsLogo.png");
 const ReduxLogo = require("../assets/logos/ReduxLogo.png");
 // const FirebaseLogo = require("../assets/logos/FirebaseLogo.png");
 const MongoDBLogo = require("../assets/logos/MongoDBLogo.png");
@@ -20,6 +20,7 @@ const DockerLogo = require("../assets/logos/DockerLogo.png");
 const UnityLogo = require("../assets/logos/unityLogo.png");
 const gmsLogo = require("../assets/logos/gms2Logo.png");
 const vueLogo = require("../assets/logos/vueLogo.png");
+const JsLogoGif = require("../assets/logos/JsLogoGif.gif");
 
 /**
  * It renders the About section of the website.
@@ -76,7 +77,7 @@ const About = () => {
           <code>Here are some of the technologies I work with :</code>
           <div className="grid grid-cols-3 gap-2 text-sm mt-5 text-brown_vs">
             <DivTechno logo={ReactLogo} label="React" />
-            <DivTechno logo={JsLogo} label="Javascript(ES6+)" />
+            <DivTechno logo={JsLogoGif} label="Javascript(ES6+)" />
             <DivTechno logo={TypescriptLogo} label="TypeScript" />
             <DivTechno logo={ReduxLogo} label="Redux" />
             <DivTechno logo={NodeJSLogo} label="Nodejs" />

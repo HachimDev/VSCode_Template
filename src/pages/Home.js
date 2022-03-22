@@ -7,11 +7,29 @@ import MobileMenu from "./MobileMenu";
 import Header from "./Header";
 import NavBar from "./NavBar";
 
+import detectZoom from "detect-zoom";
+
 /**
  * It renders the home page
  * @returns The JSX code for the entire page.
  */
 const Home = () => {
+  if (
+    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+      navigator.userAgent
+    )
+  ) {
+    // console.log("DEVICE IS MOBILE");
+    // console.log("Zoom", detectZoom.zoom());
+    // console.log("device", detectZoom.device());
+    document.body.style.zoom = "55%";
+  }
+  // else {
+  //   console.log("DEVICE IS PC");
+  //   console.log("Zoom", detectZoom.zoom());
+  //   console.log("device", detectZoom.device());
+  // }
+
   const [home, setHome] = useState(true);
   const [onlyAbout, setOnlyAbout] = useState(false);
   const [onlyResume, setOnlyResume] = useState(false);
