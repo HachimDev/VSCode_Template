@@ -12,6 +12,7 @@ const TSIcon = require("../assets/icons/TSIcon.png");
 
 const MobileMenu = () => {
   const projects = [
+    // First project
     {
       name: "First Project",
       href: "#",
@@ -24,6 +25,7 @@ const MobileMenu = () => {
       ),
       current: true,
     },
+    // Second project
     {
       name: "Second Project",
       href: "#",
@@ -36,6 +38,7 @@ const MobileMenu = () => {
       ),
       current: false,
     },
+    // Third project
     {
       name: "Third Project",
       href: "#",
@@ -48,6 +51,7 @@ const MobileMenu = () => {
       ),
       current: false,
     },
+    // Fourth project
     {
       name: "Fourth Project",
       href: "#",
