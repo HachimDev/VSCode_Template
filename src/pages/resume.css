@@ -9,3 +9,8 @@
   left: 85%;
   top: 160%;
 }
+
+.sub-title {
+  text-align: end;
+  padding-right: 2.5em;
+}

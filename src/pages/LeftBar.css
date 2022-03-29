@@ -1,0 +1,10 @@
+.footerStyle {
+  position: relative;
+  top: 2em;
+  width: 75%;
+  right: 2em;
+  left: 2em;
+  color: darkgrey;
+  text-align: center;
+  font-size: small;
+}

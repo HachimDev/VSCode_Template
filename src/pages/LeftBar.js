@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { ChevronDownIcon, ChevronRightIcon } from "@heroicons/react/solid";
 import { Link } from "react-router-dom";
 
+import "./LeftBar.css";
+
 const GitLogo = require("../assets/logos/GitLogo.png");
 const LinkedinLogo = require("../assets/logos/LinkedinLogo.png");
 const gitlabLogo = require("../assets/logos/gitlabLogo.png");
@@ -171,6 +173,9 @@ const LeftBar = () => {
                 className="h-10 w-10 text-yellow_vs hover:cursor-pointer"
               />
             </Link>
+          </div>
+          <div className="footerStyle hover:cursor-pointer hover:bg-opacity-80">
+            <code>This website was made by Hachim with &#10084;&#65039;⚛️</code>
           </div>
         </div>
       </div>

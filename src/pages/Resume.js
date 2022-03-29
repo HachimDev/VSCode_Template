@@ -22,7 +22,7 @@ const Resume = () => {
       </div>
       <div className="text-[#a2aabc] text-lg mt-5">
         <div className="flex flex-row">
-          <div className="w-1/4">
+          <div className="w-1/4 sub-title">
             <code className="text-yellow_vs">Education</code>
           </div>
           <div className="w-3/4">
@@ -38,7 +38,7 @@ const Resume = () => {
           </div>
         </div>
         <div className="flex flex-row pt-10">
-          <div className="w-1/4">
+          <div className="w-1/4 sub-title">
             <code className="text-yellow_vs">Current Work</code>
           </div>
           {/* Work 1 */}
@@ -66,8 +66,8 @@ const Resume = () => {
           </div>
           {/* End Work 1 */}
         </div>
-        <div className="flex flex-row pt-10 flex-wrap">
-          <div className="w-1/4">
+        <div className="flex flex-row pt-10 flex-wrap ">
+          <div className="w-1/4 sub-title">
             <code className="text-yellow_vs">Skills</code>
           </div>
           <div className="w-3/4">

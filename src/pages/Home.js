@@ -6,6 +6,7 @@ import Resume from "./Resume";
 import MobileMenu from "./MobileMenu";
 import Header from "./Header";
 import NavBar from "./NavBar";
+// import Footer from "./Footer";
 
 // import detectZoom from "detect-zoom";
 
@@ -37,6 +38,7 @@ const Home = () => {
 
   return (
     <div id="home" className="App flex h-max bg-[#1e1e1e]">
+      {/* <Footer /> */}
       <div className="bg-[#262526] fixed h-full hidden lg:block">
         <LeftBar />
       </div>
@@ -52,6 +54,7 @@ const Home = () => {
             setOnlyContact={setOnlyContact}
           />
         </div>
+
         {home ? (
           <>
             <Header id="Header" />
