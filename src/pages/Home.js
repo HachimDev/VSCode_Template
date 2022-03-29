@@ -7,7 +7,7 @@ import MobileMenu from "./MobileMenu";
 import Header from "./Header";
 import NavBar from "./NavBar";
 
-import detectZoom from "detect-zoom";
+// import detectZoom from "detect-zoom";
 
 /**
  * It renders the home page
