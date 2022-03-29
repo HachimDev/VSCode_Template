@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.14a26161.css",
-    "main.js": "/static/js/main.5a6ce0cf.js",
+    "main.css": "/static/css/main.1a18caab.css",
+    "main.js": "/static/js/main.7cb2f7fb.js",
     "static/js/787.0efb1169.chunk.js": "/static/js/787.0efb1169.chunk.js",
     "static/media/myPhoto2.png": "/static/media/myPhoto2.3ad3edbe45c7fb19610a.png",
     "static/media/cv_hachim_react_conserto_2022.pdf": "/static/media/cv_hachim_react_conserto_2022.160112a58339d8be0055.pdf",
@@ -9,18 +9,18 @@
     "static/media/NodeJSLogo.png": "/static/media/NodeJSLogo.aabc0115471d1e8b2d6e.png",
     "static/media/DockerLogo.png": "/static/media/DockerLogo.6d1afdb456643d603142.png",
     "static/media/vueLogo.png": "/static/media/vueLogo.4626039760cedf966189.png",
+    "static/media/JsLogoGif.gif": "/static/media/JsLogoGif.1776ef3b763922ca5ea1.gif",
     "static/media/ReactLogo.png": "/static/media/ReactLogo.a0308b626b2d845d33a5.png",
     "static/media/TypescriptLogo.png": "/static/media/TypescriptLogo.c4105801aadf2606ac30.png",
     "static/media/ReduxLogo.png": "/static/media/ReduxLogo.296b9306ae3e4de348c6.png",
     "static/media/unityLogo.png": "/static/media/unityLogo.9f87bfd7521049b1b9e4.png",
-    "static/media/JsLogo.png": "/static/media/JsLogo.db393457bf6303d846d6.png",
     "index.html": "/index.html",
-    "main.14a26161.css.map": "/static/css/main.14a26161.css.map",
-    "main.5a6ce0cf.js.map": "/static/js/main.5a6ce0cf.js.map",
+    "main.1a18caab.css.map": "/static/css/main.1a18caab.css.map",
+    "main.7cb2f7fb.js.map": "/static/js/main.7cb2f7fb.js.map",
     "787.0efb1169.chunk.js.map": "/static/js/787.0efb1169.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14a26161.css",
-    "static/js/main.5a6ce0cf.js"
+    "static/css/main.1a18caab.css",
+    "static/js/main.7cb2f7fb.js"
   ]
 }
